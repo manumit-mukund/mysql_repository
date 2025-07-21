@@ -1,6 +1,6 @@
 drop view student_in_patna;
 
-CREATE VIEW student_in_patna AS
+CREATE OR REPLACE VIEW student_in_patna AS
     SELECT 
         id, name, city
     FROM
