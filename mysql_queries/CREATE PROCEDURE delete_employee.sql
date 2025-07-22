@@ -8,3 +8,5 @@ BEGIN
 END //
 
 DELIMITER ;
+
+CALL delete_employee(4);
